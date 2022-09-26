@@ -13,7 +13,7 @@ Objectives:
 ## Time series analysis - studying capillary rise
 - Analysing a neutron radiography time series.
 
-<a href="https://colab.research.google.com/github/ImagingELearning/QuantifyingNeutronImages/blob/main/tutorial/02_RadiographyTimeSeries/02_Analysis_CapillaryRise.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/QuantifyingNeutronImages/blob/main/tutorials/02_RadiographyTimeSeries/02_Analysis_CapillaryRise.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
