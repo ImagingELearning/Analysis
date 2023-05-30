@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 import skimage.filters as flt
 import skimage.morphology as morph
-import skimage.morphology.greyreconstruct as rec
 
 def _spotclean(img,size=5,threshold=0.95):
     fimg=flt2.median_filter(img,size)
@@ -42,7 +41,7 @@ def fill_spots(img,size=5) :
     fm[1:-2,1:-2] = med[1:-2,1:-2]
     fm = np.maximum(fm,img)
     
-    res=rec.reconstruction(fm,img,method='erosion')
+    res=morph.reconstruction(fm,img,method='erosion')
     
     return res
 
@@ -52,7 +51,7 @@ def fill_spots2(img,size=5) :
     fm = img.copy()
     fm[1:-2,1:-2] = med[1:-2,1:-2]
     
-    res=rec.reconstruction(fm,img,method='erosion')
+    res=morph.reconstruction(fm,img,method='erosion')
     
     return res
 
