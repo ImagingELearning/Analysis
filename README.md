@@ -1,4 +1,7 @@
 # Quantitative analysis in neutron images
+<a href="https://github.com/ImagingELearning/QuantifyingNeutronImages" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="48px" alt="Open repository"/>
+</a>
 
 ## Attenuation coeffiicent from step wedge measurements
 A tutorial to study water uptake in porous media using neutron imaging.
