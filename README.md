@@ -5,6 +5,9 @@ A tutorial to study water uptake in porous media using neutron imaging.
 Objectives:
 - Determine the attenuation coefficient for water.
 
+<a href="https://colab.research.google.com/github/ImagingELearning/resolution/blob/main/tutorials/02_PixelSize/02_PixelSize.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 <a href="https://colab.research.google.com/github/ImagingELearning/QuantifyingNeutronImages/blob/main/tutorial/01_AttenationCoefficient/01_Analysis_AttenuationCoefficient.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
